@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { AppBar, IconButton, Toolbar, Drawer, Button, Avatar, useMediaQuery } from '@mui/material';
-// import Toolbar from '@material-ui/core/Toolbar';
 import { Menu, AccountCircle, Brightness4, Brightness7 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useTheme } from '@mui/styles';
@@ -39,6 +38,7 @@ const NavBar = () => {
         }
       }
     };
+    
     loginUser();
   }, [token]);
 
